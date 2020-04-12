@@ -1,4 +1,7 @@
-class Item {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+public class Item {
 	int id;
 	String name;
 	double price;
@@ -47,3 +50,29 @@ E492: Not an editor command: wg!
 	}
 
 } 
+public class Receipt{
+ public static List<Item> remove (List<Item> reciept)
+ {
+
+int i=0;
+while(reciept.size()>7){
+	reciept.size()-=1;
+	i++;
+}
+return reciept;
+ }
+ 
+ public double TotalValue(List <Item> reciept){
+	 double sum;
+	 for( double price : Item){
+          sum+=price;
+	 }
+	 return sum;
+ }
+ public static void main(string [] args){	
+  List<Item> reciept = new ArrayList<>();
+  reciept.add(new Item (1457,"Mango",121);
+		  
+
+}
+}
